@@ -1,3 +1,30 @@
+# Google Map API
+
+## 1. **Google Cloud Platform (GCP)でプロジェクト作成**
+1. **Google Cloud Console** にアクセスします: [Google Cloud Console](https://console.cloud.google.com/)
+2. 新しいプロジェクトを作成します。
+3. 「**APIとサービス**」 > 「**有効なAPIとサービス**」で Google Maps API を有効にします。
+   - 必要に応じて、以下のようなAPIを有効化します:
+     - Maps JavaScript API
+
+
+
+## 2. **APIキーを取得**
+1. 「**APIとサービス**」 > 「**認証情報**」から新しいAPIキーを作成します。
+2. このAPIキーは、アプリケーションに埋め込むことで、Google Maps APIを使用可能にします。
+3. 必要に応じてAPIキーの制限（ドメインやIPアドレスの制限）を設定してください。
+
+
+詳細な公式ドキュメントは以下を参照してください:  
+[Google Maps API ドキュメント](https://developers.google.com/maps/documentation) 
+
+---
+
+Google Maps API の型定義とユーティリティをインストールします。
+```bash
+npm install @types/google.maps
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
